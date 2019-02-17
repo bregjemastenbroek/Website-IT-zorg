@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>It in de zorg</title>
+    
+     <link rel="stylesheet" href="stylesheet.css">
+      
+    <link rel='icon' href='https://media5.picsearch.com/is?xmWDvI4XQ1DTy4dch00pgEqToSCPXJ7BFo_j7yhvwjA&height=300' type='image/x-icon'/ >
+  </head>
+  <body>
+    
+   <nav>
+    <ul id="drop-nav">
+  <li><a href="index.html">Home</a></li>
+    
+  <li><a href="Video.html">Video</a>
+  
+  <li><a href="Contact.html">Contact</a>
+
+  <li><a href="Aboutus.html">About us</a>
+
+  </li>
+</ul>
+    </nav>
+    
+    <style type="text/css">
+  ul {list-style: none;padding: 0px;margin: 0px;}
+  ul li {display: block;position: relative;float: left;border:1px solid #000}
+  li ul {display: none;}
+  ul li a {display: block;background: #000;padding: 5px 10px 5px 10px;text-decoration: none;
+           white-space: nowrap;color: #fff;}
+  ul li a:hover {background: #f00;}
+  li:hover ul {display: block; position: absolute;}
+  li:hover li {float: none;}
+  li:hover a {background: #f00;}
+  li:hover li a:hover {background: #000;}
+  #drop-nav li ul li {border-top: 0px;}
+</style>
+    
+  <p5>
+      <h2>
+         Contact pagina
+      </h2>
+
+      <form>
+  <fieldset>
+    <legend>Persoonlijke informatie:</legend>
+ 
+    Naam : <input type="text" required name="naam" 
+pattern="[A-Za-z]{3,}" title="minimaal drie letters en geen cijfers"><br> 
+    Email *: <input type="text" required><br>
+    Telefoonnummer *: <input type="text" required><br> 
+    Land:       <input list="browsers" required>
+<datalist id="browsers">
+  <option value="Nederland">
+  <option value="Belgie">
+  <option value="Duitsland">
+  <option value="Luxemburg">
+  <option value="Overig land">
+</datalist>
+      <p><input type="submit"></p>
+  </fieldset>
+</form>
+
+    </p5>
