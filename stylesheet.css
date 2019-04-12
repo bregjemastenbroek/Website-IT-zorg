@@ -25,7 +25,7 @@
   }
 
   ul li a:hover {
-    background: #f00;
+    background: #B0E0E6;
   }
 
   li:hover ul {
@@ -38,7 +38,7 @@
   }
 
   li:hover a {
-    background: #f00;
+    background: #B0E0E6;
   }
 
   li:hover li a:hover {
