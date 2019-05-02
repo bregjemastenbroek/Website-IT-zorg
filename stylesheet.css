@@ -1,4 +1,6 @@
-  ul {
+
+
+ul {
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -52,6 +54,12 @@
   body {
     background-color: #ccffff;
   }
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue ! important ;
+  }
+}
 
 span{
     display:inline-block;
